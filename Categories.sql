@@ -1,0 +1,47 @@
+DROP TABLE IF EXISTS categories;
+CREATE TABLE IF NOT EXISTS categories(
+   category_id INTEGER  NOT NULL PRIMARY KEY 
+  ,name        VARCHAR(28) NOT NULL
+);
+INSERT INTO categories(category_id,name) VALUES (0,'Children & Family Movies');
+INSERT INTO categories(category_id,name) VALUES (1,'Cult Movies');
+INSERT INTO categories(category_id,name) VALUES (2,'Dramas');
+INSERT INTO categories(category_id,name) VALUES (3,'Independent Movies');
+INSERT INTO categories(category_id,name) VALUES (4,'Comedies');
+INSERT INTO categories(category_id,name) VALUES (5,'Romantic Movies');
+INSERT INTO categories(category_id,name) VALUES (6,'Action & Adventure');
+INSERT INTO categories(category_id,name) VALUES (7,'International Movies');
+INSERT INTO categories(category_id,name) VALUES (8,'Documentaries');
+INSERT INTO categories(category_id,name) VALUES (9,'Horror Movies');
+INSERT INTO categories(category_id,name) VALUES (10,'Thrillers');
+INSERT INTO categories(category_id,name) VALUES (11,'International TV Shows');
+INSERT INTO categories(category_id,name) VALUES (12,'Romantic TV Shows');
+INSERT INTO categories(category_id,name) VALUES (13,'TV Comedies');
+INSERT INTO categories(category_id,name) VALUES (14,'Docuseries');
+INSERT INTO categories(category_id,name) VALUES (15,'Sci-Fi & Fantasy');
+INSERT INTO categories(category_id,name) VALUES (16,'Kids'' TV');
+INSERT INTO categories(category_id,name) VALUES (17,'TV Dramas');
+INSERT INTO categories(category_id,name) VALUES (18,'TV Thrillers');
+INSERT INTO categories(category_id,name) VALUES (19,'Stand-Up Comedy');
+INSERT INTO categories(category_id,name) VALUES (20,'Crime TV Shows');
+INSERT INTO categories(category_id,name) VALUES (21,'TV Mysteries');
+INSERT INTO categories(category_id,name) VALUES (22,'British TV Shows');
+INSERT INTO categories(category_id,name) VALUES (23,'Music & Musicals');
+INSERT INTO categories(category_id,name) VALUES (24,'Reality TV');
+INSERT INTO categories(category_id,name) VALUES (25,'Spanish-Language TV Shows');
+INSERT INTO categories(category_id,name) VALUES (26,'TV Action & Adventure');
+INSERT INTO categories(category_id,name) VALUES (27,'Anime Features');
+INSERT INTO categories(category_id,name) VALUES (28,'Teen TV Shows');
+INSERT INTO categories(category_id,name) VALUES (29,'Faith & Spirituality');
+INSERT INTO categories(category_id,name) VALUES (30,'Korean TV Shows');
+INSERT INTO categories(category_id,name) VALUES (31,'Science & Nature TV');
+INSERT INTO categories(category_id,name) VALUES (32,'Anime Series');
+INSERT INTO categories(category_id,name) VALUES (33,'LGBTQ Movies');
+INSERT INTO categories(category_id,name) VALUES (34,'TV Horror');
+INSERT INTO categories(category_id,name) VALUES (35,'Movies');
+INSERT INTO categories(category_id,name) VALUES (36,'Stand-Up Comedy & Talk Shows');
+INSERT INTO categories(category_id,name) VALUES (37,'TV Sci-Fi & Fantasy');
+INSERT INTO categories(category_id,name) VALUES (38,'Classic Movies');
+INSERT INTO categories(category_id,name) VALUES (39,'Sports Movies');
+INSERT INTO categories(category_id,name) VALUES (40,'TV Shows');
+INSERT INTO categories(category_id,name) VALUES (41,'Classic & Cult TV');
